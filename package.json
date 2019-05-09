@@ -1,0 +1,33 @@
+{
+    "name": "duval-formula",
+    "version": "1.0.0",
+    "description": "Duval's formula",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel src --out-dir dist",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kvmarkovich/duval-formula.git"
+    },
+    "author": "kvmarkovich@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kvmarkovich/duval-formula/issues"
+    },
+    "homepage": "https://github.com/kvmarkovich/duval-formula#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/preset-env": "^7.4.4",
+        "babel-core": "^7.0.0-0",
+        "babel-jest": "^24.8.0",
+        "jest": "^24.8.0",
+        "jest-cli": "^24.8.0",
+        "regenerator-runtime": "^0.13.2"
+    },
+    "jest": {
+        "transform": {}
+    }
+}
