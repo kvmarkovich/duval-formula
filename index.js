@@ -1,1 +1,1 @@
-export * from './dist/duval'
+export * from './lib/duval'
